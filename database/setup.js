@@ -9,6 +9,7 @@ const db = new sqlite3.Database(dbPath, (error) => {
 	}
 
 	console.log('Connected to SQLite database.');
+	console.log('university.db was successfully created.');
 });
 
 db.serialize(() => {
